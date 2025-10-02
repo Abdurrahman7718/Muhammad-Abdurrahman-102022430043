@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studi Kasus ReverSide</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="profile-photo"></div>
+
+    <div class="info">
+        <?php
+            $nama_lengkap = "Muhammad Abdurrahman";
+            $nim_info = "102022430043 / FRI / S1 Sistem Informasi";
+
+            echo "<h1>" . $nama_lengkap . "</h1>";
+            echo "<p>" . $nim_info . "</p>";
+        ?>
+    </div>
+
+    <div class="social-links">
+        <?php
+            $github = "https://github.com/Abdurrahman7718";
+            $ig = "https://instagram.com/abdurr.__";
+            $x = "https://x.com/MuhammadAb82779";
+
+            echo '<a href="' . $github . '" class="social-link" target="_blank" title="GitHub">G</a>';
+
+            echo '<a href="' . $ig . '" class="social-link" target="_blank" title="Instagram">IG</a>';
+            
+            echo '<a href="' . $x . '" class="social-link" target="_blank" title="X (Twitter)">X</a>';
+        ?>
+    </div>
+
+</div>
+
+</body>
+</html>
